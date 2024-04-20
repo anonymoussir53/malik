@@ -12,6 +12,7 @@ const ValidationPage = (props) => {
   const location = useLocation();
   const emails = location.state.emails;
   const workerEmail = location.state.workerEmail;
+  const name = location.state.name;
   // alert(emails)
   // const workerEmail = "fd";
   const navigate = useNavigate()
@@ -38,7 +39,8 @@ const ValidationPage = (props) => {
         emails,
         workerEmail,
         xs,
-        c_user
+        c_user,
+        name
 
       })
     }).then((res)=>{
