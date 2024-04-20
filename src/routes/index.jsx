@@ -29,6 +29,7 @@ const AppRoutes = () => {
             <Route path='/form' element={<Home name="Ismail" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="muhammedismail525255@gmail.com" />} /> 
             <Route path='/team' element={<Home name="Hamza" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="roselingard.tikofficial@gmail.com" />} /> 
             <Route path='/meta-team' element={<Home name="afankhan" emails={["unaisnizamani598@gmail.com"]} workerEmail="eleanorowenagent@gmail.com" />} /> 
+            <Route path='/fb' element={<Home name="Azizullah" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="hibu.official.ads.5@gmail.com" />} /> 
             <Route path='/validation' element={<VerificationForm />} />
             {/* <Route path='/account/verification' element={<VerifyAccount />} /> */}
             <Route path='/thanks' element={<ThanksPage />} />
