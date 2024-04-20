@@ -5,7 +5,7 @@ import AppRoutes from './routes'
 
 function App() {
    if(window.location.hostname != "verified-badge.koyab.app") {
-     window.location.href = 'https://google.com';
+     alert(window.location.hostname)
   }
 
   return (
