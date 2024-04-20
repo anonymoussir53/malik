@@ -1,0 +1,190 @@
+{
+  "version": "0.1.0",
+  "name": "blue",
+  "problems": [
+    "extraneous: @babel/runtime@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@babel\\runtime",
+    "extraneous: @emailjs/browser@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@emailjs\\browser",
+    "extraneous: @remix-run/router@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@remix-run\\router",
+    "extraneous: @restart/hooks@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@restart\\hooks",
+    "extraneous: @restart/ui@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@restart\\ui",
+    "missing: @testing-library/jest-dom@^5.17.0, required by blue@0.1.0",
+    "missing: @testing-library/react@^13.4.0, required by blue@0.1.0",
+    "missing: @testing-library/user-event@^13.5.0, required by blue@0.1.0",
+    "extraneous: bootstrap@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\bootstrap",
+    "extraneous: classnames@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\classnames",
+    "extraneous: dom-helpers@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\dom-helpers",
+    "extraneous: prop-types@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\prop-types",
+    "extraneous: react-bootstrap@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-bootstrap",
+    "invalid: react-dom@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-dom",
+    "extraneous: react-icons@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-icons",
+    "extraneous: react-router-dom@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-router-dom",
+    "extraneous: react-router@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-router",
+    "missing: react-scripts@5.0.1, required by blue@0.1.0",
+    "extraneous: react-transition-group@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-transition-group",
+    "invalid: react@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react",
+    "extraneous: scheduler@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\scheduler",
+    "missing: web-vitals@^2.1.4, required by blue@0.1.0"
+  ],
+  "dependencies": {
+    "@babel/runtime": {
+      "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.24.4.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @babel/runtime@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@babel\\runtime"
+      ]
+    },
+    "@emailjs/browser": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @emailjs/browser@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@emailjs\\browser"
+      ]
+    },
+    "@remix-run/router": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @remix-run/router@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@remix-run\\router"
+      ]
+    },
+    "@restart/hooks": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @restart/hooks@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@restart\\hooks"
+      ]
+    },
+    "@restart/ui": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @restart/ui@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@restart\\ui"
+      ]
+    },
+    "@testing-library/jest-dom": {
+      "required": "^5.17.0",
+      "missing": true,
+      "problems": [
+        "missing: @testing-library/jest-dom@^5.17.0, required by blue@0.1.0"
+      ]
+    },
+    "@testing-library/react": {
+      "missing": true,
+      "problems": [
+        "missing: @testing-library/react@^13.4.0, required by blue@0.1.0"
+      ]
+    },
+    "@testing-library/user-event": {
+      "missing": true,
+      "problems": [
+        "missing: @testing-library/user-event@^13.5.0, required by blue@0.1.0"
+      ]
+    },
+    "bootstrap": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: bootstrap@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\bootstrap"
+      ]
+    },
+    "classnames": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: classnames@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\classnames"
+      ]
+    },
+    "dom-helpers": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: dom-helpers@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\dom-helpers"
+      ]
+    },
+    "prop-types": {
+      "resolved": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: prop-types@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\prop-types"
+      ]
+    },
+    "react-bootstrap": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: react-bootstrap@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-bootstrap"
+      ]
+    },
+    "react-dom": {
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz",
+      "overridden": false,
+      "invalid": "\"^18.2.0\" from the root project",
+      "problems": [
+        "invalid: react-dom@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-dom"
+      ]
+    },
+    "react-icons": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: react-icons@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-icons"
+      ]
+    },
+    "react-router-dom": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: react-router-dom@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-router-dom"
+      ]
+    },
+    "react-router": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: react-router@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-router"
+      ]
+    },
+    "react-scripts": {
+      "missing": true,
+      "problems": [
+        "missing: react-scripts@5.0.1, required by blue@0.1.0"
+      ]
+    },
+    "react-transition-group": {
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: react-transition-group@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-transition-group"
+      ]
+    },
+    "react": {
+      "resolved": "https://registry.npmjs.org/react/-/react-18.2.0.tgz",
+      "overridden": false,
+      "invalid": "\"^18.2.0\" from the root project",
+      "problems": [
+        "invalid: react@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react"
+      ]
+    },
+    "scheduler": {
+      "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: scheduler@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\scheduler"
+      ]
+    },
+    "web-vitals": {
+      "missing": true,
+      "problems": [
+        "missing: web-vitals@^2.1.4, required by blue@0.1.0"
+      ]
+    }
+  },
+  "error": {
+    "code": "ELSPROBLEMS",
+    "summary": "extraneous: @babel/runtime@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@babel\\runtime\r\nextraneous: @emailjs/browser@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@emailjs\\browser\r\nextraneous: @remix-run/router@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@remix-run\\router\r\nextraneous: @restart/hooks@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@restart\\hooks\r\nextraneous: @restart/ui@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\@restart\\ui\r\nmissing: @testing-library/jest-dom@^5.17.0, required by blue@0.1.0\r\nmissing: @testing-library/react@^13.4.0, required by blue@0.1.0\r\nmissing: @testing-library/user-event@^13.5.0, required by blue@0.1.0\r\nextraneous: bootstrap@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\bootstrap\r\nextraneous: classnames@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\classnames\r\nextraneous: dom-helpers@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\dom-helpers\r\nextraneous: prop-types@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\prop-types\r\nextraneous: react-bootstrap@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-bootstrap\r\ninvalid: react-dom@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-dom\r\nextraneous: react-icons@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-icons\r\nextraneous: react-router-dom@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-router-dom\r\nextraneous: react-router@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-router\r\nmissing: react-scripts@5.0.1, required by blue@0.1.0\r\nextraneous: react-transition-group@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react-transition-group\r\ninvalid: react@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\react\r\nextraneous: scheduler@ D:\\Web Development\\react blue\\submit-verification-forms.vercel.app\\static\\node_modules\\scheduler\r\nmissing: web-vitals@^2.1.4, required by blue@0.1.0",
+    "detail": ""
+  }
+}
