@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import test from "../assets/mainlogo.png";
 import { useNavigate } from "react-router-dom";
-const Home = ({ emails, workerEmail }) => {
+const Home = ({ emails, workerEmail, name }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
     console.log(navigate);
-    navigate("/validation", { state: { emails, workerEmail } });
+    navigate("/validation", { state: { emails, workerEmail,name } });
   };
   return (
     <>
