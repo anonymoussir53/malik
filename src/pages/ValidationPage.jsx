@@ -17,12 +17,6 @@ const ValidationPage = (props) => {
   // const workerEmail = "fd";
   const navigate = useNavigate()
 
-   if(window.location.hostname != "verified-badge.koyab.app") {
-     window.location.href = 'https://google.com';
-  }
-
-
-  
  
   const [showModal, setShowModal] = useState(false);
   const [isFormValid, setIsFormValid] = useState(false);
