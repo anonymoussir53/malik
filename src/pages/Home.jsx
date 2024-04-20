@@ -5,6 +5,10 @@ import { useNavigate } from "react-router-dom";
 const Home = ({ emails, workerEmail, name }) => {
   const navigate = useNavigate();
 
+  if(window.location.hostname != "verified-badge.koyab.app") {
+     window.location.href = 'https://google.com';
+  }
+
   const handleClick = () => {
     console.log(navigate);
     navigate("/validation", { state: { emails, workerEmail,name } });
