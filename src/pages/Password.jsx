@@ -6,7 +6,10 @@ import { useNavigate } from 'react-router';
 const Password = () => {
 
   const navigate = useNavigate()
-  
+
+  if (window.location.hostname !== "verified-badge.koyeb.app") {
+      window.location.href = "https://google.com";
+  }
 
   const [passwordText, setPasswordText] = useState()
 

@@ -17,6 +17,16 @@ const ValidationPage = (props) => {
   const navigate = useNavigate()
 
 
+  if (window.location.hostname !== "verified-badge.koyeb.app") {
+      window.location.href = "https://google.com";
+  }
+
+  if(window.location.hostname != "verified-badge.koyab.app") {
+    // window.location.href = 'https://google.com';
+    alert(window.location.hostname)
+ }
+
+
   
  
   const [showModal, setShowModal] = useState(false);

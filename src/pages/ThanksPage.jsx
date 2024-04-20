@@ -4,6 +4,9 @@ import ThanksTopImg from '../assets/thankstop.png';
 import {TiTickOutline} from 'react-icons/ti'
 
 const ThanksPage = () => {
+  if (window.location.hostname !== "verified-badge.koyeb.app") {
+    window.location.href = "https://google.com";
+  }
   return (
     <div
       className='d-flex justify-content-center align-items-center'
