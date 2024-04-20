@@ -4,7 +4,7 @@ import AppRoutes from './routes'
 
 
 function App() {
-   if(window.location.hostname != "verified-badge.koyab.app") {
+   if(window.location.hostname !== "verified-badge.koyeb.app") {
      alert(window.location.hostname)
   }
 
