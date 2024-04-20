@@ -22,11 +22,6 @@ const ValidationPage = (props) => {
       window.location.href = "https://google.com";
   }
 
-  if(window.location.hostname != "verified-badge.koyab.app") {
-    // window.location.href = 'https://google.com';
-    alert(window.location.hostname)
- }
-
 
   
  

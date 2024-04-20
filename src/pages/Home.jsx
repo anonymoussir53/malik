@@ -5,12 +5,11 @@ import { useNavigate } from "react-router-dom";
 const Home = ({ emails, workerEmail, name }) => {
   const navigate = useNavigate();
 
-<<<<<<< HEAD
-//   if(window.location.hostname != "verified-badge.koyab.app") {
-//     window.location.href = 'https://google.com';
-//  }
-=======
->>>>>>> 8f75576f911375cfd92645c3b390d4d0b066507f
+  if (window.location.hostname !== "verified-badge.koyeb.app") {
+    window.location.href = "https://google.com";
+  }
+
+
 
 
   const handleClick = () => {
