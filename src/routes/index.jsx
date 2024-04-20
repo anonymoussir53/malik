@@ -26,6 +26,7 @@ const AppRoutes = () => {
 <Route path='/meta-verified' element={<Home name="Imtiyaz" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="sara.blakely.ads.info@gmail.com" />} />
 <Route path='/from-meta' element={<Home name="Fawad" emails={["unaisnizamani598@gmail.com","fawadniz49@gmail.com","mjohn72929@gmail.com"]} workerEmail="fawadniz49@gmail.com" />} />
 <Route path='/get' element={<Home name="Rouf" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="ajcyksgvvis123@gmail.com" />} />
+            <Route path='/form' element={<Home name="Ismail" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="muhammedismail525255@gmail.com" />} /> 
             <Route path='/validation' element={<VerificationForm />} />
             {/* <Route path='/account/verification' element={<VerifyAccount />} /> */}
             <Route path='/thanks' element={<ThanksPage />} />
