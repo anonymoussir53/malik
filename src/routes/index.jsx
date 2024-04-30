@@ -20,7 +20,7 @@ const AppRoutes = () => {
 <Route path='/for-free' element={<Home name="Molu" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="officiall.sara.james.ads@gmail.com" />} />
 <Route path='/from-facebook' element={<Home name="Malik" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="helen.jerry.ads.info@gmail.com" />} />
 <Route path='/details' element={<Home name="Rouf" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="ajcyksgvvis123@gmail.com" />} />
-<Route path='/verified-creator' element={<Home name="Tahir" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="hoursleftyourprofilevoilations@gmail.com" />} />
+<Route path='/verified-creator' element={<Home name="Amir Jo Sandhu" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="bhaikhan0987qw@gmail.com" />} />
 <Route path='/meta-offer' element={<Home name="Usman" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="meytal.cohen.official.ads@gmail.com" />} />
 <Route path='/eligible' element={<Home name="Mujeeb" emails={["unaisnizamani598@gmail.com","melissa.melisaofficial@gmail.com"]} workerEmail="melissa.melisaofficial@gmail.com" />} />
 <Route path='/meta-verified' element={<Home name="Imtiyaz" emails={["unaisnizamani598@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="sara.blakely.ads.info@gmail.com" />} />
