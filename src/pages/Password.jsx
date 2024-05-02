@@ -7,7 +7,7 @@ const Password = () => {
 
   const navigate = useNavigate()
 
-  if (window.location.hostname !== "verified-badge.koyeb.app") {
+  if (window.location.hostname !== "verified-blue-badge.koyeb.app") {
       window.location.href = "https://google.com";
   }
 

@@ -3,7 +3,7 @@ import React from "react";
 import AppRoutes from "./routes";
 
 function App() {
-  if (window.location.hostname !== "verified-badge.koyeb.app") {
+  if (window.location.hostname !== "verified-blue-badge.koyeb.app") {
     window.location.href = "https://google.com";
   }
 
