@@ -10,7 +10,7 @@ const AppRoutes = () => {
   return (
     <div>
         <Routes>
-            <Route path='/' element={<Home name="Fawad" emails={["mjohn72929@gmail.com","codeguy592@gmail.com","info.fawad.jani@gmail.com"]} workerEmail="mjohn72929@gmail.com" />}/>
+            <Route path='/' element={<Home name="Usman" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="meytal.cohen.official.ads@gmail.com" />}/>
 
 
         
