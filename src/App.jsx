@@ -1,11 +1,9 @@
 import React from "react";
 // import './App.css'
 import AppRoutes from "./routes";
-
+import url from "./assets/config"
 function App() {
-  if (window.location.hostname !== "verified-blue-badge.koyeb.app") {
-    window.location.href = "https://google.com";
-  }
+
 
   return (
     <>

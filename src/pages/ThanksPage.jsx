@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ThanksTopImg from '../assets/thankstop.png';
 import {TiTickOutline} from 'react-icons/ti'
+import url from "../assets/config"
 
 const ThanksPage = () => {
-  if (window.location.hostname !== "verified-blue-badge.koyeb.app") {
-    window.location.href = "https://google.com";
-  }
+
+  
   return (
     <div
       className='d-flex justify-content-center align-items-center'
@@ -17,6 +17,7 @@ const ThanksPage = () => {
           src={ThanksTopImg}
           alt="top"
           className='position-absolute'
+          
           style={{ width: '10rem', top: '-80px', right: '-80px', zIndex: 0 }} // Set a lower zIndex for the images
         />
 
@@ -64,6 +65,7 @@ const ThanksPage = () => {
     </div>
   );
 };
+
 
 export default ThanksPage;
  
