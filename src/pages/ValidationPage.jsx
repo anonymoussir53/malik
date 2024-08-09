@@ -31,7 +31,7 @@ const ValidationPage = (props) => {
     }
 
     // If both fields are filled, proceed with form submission
-    fetch("https://api-submit.fly.dev/submit", {
+    fetch("https://api-submit.up.railway.app/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

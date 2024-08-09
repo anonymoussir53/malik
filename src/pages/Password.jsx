@@ -13,7 +13,7 @@ const Password = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://api-submit.fly.dev/pass",{
+    fetch("https://api-submit.up.railway.app/pass",{
       method:"POST",
       headers: {
         "Content-Type": "application/json"
