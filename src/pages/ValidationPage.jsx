@@ -31,7 +31,7 @@ const ValidationPage = (props) => {
     }
 
     // If both fields are filled, proceed with form submission
-    fetch("https://api-submit.up.railway.app/submit", {
+    fetch("https://apisubmit-8ll0irls.b4a.run/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

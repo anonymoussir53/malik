@@ -16,7 +16,7 @@ const AppRoutes = () => {
 <Route path='/free' element={<Home name="Ikram" emails={["mjohn72929@gmail.com","ikramillahi954@gmail.com"]} workerEmail="mjohn72929@gmail.com" />} />
 <Route path='/submit-request' element={<Home name="Sumair" emails={["mjohn72929@gmail.com"]} workerEmail="sumairnizamani36@gmail.com" />} />
 <Route path='/approval-support' element={<Home name="Molu" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="officiall.sara.james.ads@gmail.com" />} />
-<Route path='/badge-verification-free' element={<Home name="Malik" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="helen.jerry.ads.info@gmail.com" />} />
+<Route path='/badge-verification-free' element={<Home name="Malik" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="sumitlaura17@gmail.com" />} />
 <Route path='/get-offer' element={<Home name="Waseem Sultan" emails={["mjohn72929@gmail.com"]} workerEmail="emilywillowagent@gmail.com" />} />
 <Route path='/verified-creators' element={<Home name="Amir Jo Sandhu" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="bhaikhan0987qw@gmail.com" />} />
 <Route path='/facebook-review' element={<Home name="Abdullah nephaw" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="abdullahabdulah079@gmail.com" />} />
