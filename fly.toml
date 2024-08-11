@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 # fly.toml app configuration file generated for verification-form on 2024-08-10T01:44:07+05:00
+=======
+# fly.toml app configuration file generated for verified-badge on 2024-08-07T23:39:04+05:00
+>>>>>>> 80d2f6df973ee665c1268d481f84a1bbe1406733
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
+<<<<<<< HEAD
 app = 'verification-form'
+=======
+app = 'verified-badge'
+>>>>>>> 80d2f6df973ee665c1268d481f84a1bbe1406733
 primary_region = 'lhr'
 
 [build]

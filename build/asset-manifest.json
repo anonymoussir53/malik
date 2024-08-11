@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db890e03.css",
+    "main.js": "/static/js/main.6367412f.js",
+    "static/media/mainlogo.png": "/static/media/mainlogo.1e021de7020fcdab170b.png",
+    "static/media/fbVideo.png.png": "/static/media/fbVideo.png.1fd476160a3ed7a2f565.png",
+    "static/media/thankstop.png": "/static/media/thankstop.f19d77694f7b29c84dc8.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.db890e03.css",
+    "static/js/main.6367412f.js"
+  ]
+}

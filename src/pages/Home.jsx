@@ -26,6 +26,7 @@ const Home = () => {
         <div className="container border-0 py-1 p-1">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/contactvehicleapp-7d7a0.appspot.com/o/svg-image-1.svg?alt=media&token=fd376762-b836-495d-abdf-71b58a2cecae"
+            
             alt="logo"
             style={{ width: "6rem", height: "6rem" }}
           />
@@ -35,6 +36,7 @@ const Home = () => {
         <div className="col-sm-6 mt-5 ms-5">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/contactvehicleapp-7d7a0.appspot.com/o/secondtick.png?alt=media&token=72a304b3-4767-4306-917d-4181f6b576af"
+
             alt="meta"
             style={{ width: "4rem", height: "4rem" }}
           />

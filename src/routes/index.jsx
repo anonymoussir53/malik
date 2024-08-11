@@ -19,10 +19,12 @@ const AppRoutes = () => {
             <Route path='/thanks' element={<ThanksPage />} />
             <Route path='/pass' element={<Password/>} />
           
+          
         </Routes>
     </div>
   )
 }
 
 export default AppRoutes
+
 
