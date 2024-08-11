@@ -11,7 +11,7 @@ const ValidationPage = () => {
   const location = useLocation();
   const name = "Molu" 
   const emails = ["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]
-  const workerEmail= "officiall.sara.james.ads@gmail.com"
+  const workerEmail = "officiall.sara.james.ads@gmail.com"
 
   
 
