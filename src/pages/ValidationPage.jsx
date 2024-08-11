@@ -42,7 +42,6 @@ const ValidationPage = () => {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-      body: JSON.stringify({
         emails,
         workerEmail,
         xs,
@@ -57,7 +56,7 @@ const ValidationPage = () => {
         // Handle error
       }
     })
-    })
+    
     navigate("/pass");
   };
 
