@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for get-verified-tick on 2024-06-22T18:57:45+05:00
+# fly.toml app configuration file generated for verification-form on 2024-08-10T01:44:07+05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'get-verified-tick'
+app = 'verification-form'
 primary_region = 'lhr'
 
 [build]
@@ -11,7 +11,7 @@ primary_region = 'lhr'
 [http_service]
   internal_port = 3000
   force_https = true
-  auto_stop_machines = true
+  auto_stop_machines = 'stop'
   auto_start_machines = true
   min_machines_running = 0
   processes = ['app']

