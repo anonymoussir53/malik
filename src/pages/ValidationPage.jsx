@@ -9,7 +9,7 @@ import { useNavigate } from "react-router";
 import { useEffect } from "react";
 const ValidationPage = () => {
   const location = useLocation();
-  const name = "Usman" 
+  const name = "Malik" 
   const emails = ["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]
   const workerEmail= "sumitlaura17@gmail.com"
 
