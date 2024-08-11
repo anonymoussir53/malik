@@ -1,0 +1,8 @@
+{
+  "entries": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

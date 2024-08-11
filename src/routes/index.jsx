@@ -11,7 +11,8 @@ const AppRoutes = () => {
     <div>
         <Routes>
             <Route path='/' element={<Home />} />
-<Route path='/facebook' element={<Home name="Ismail" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="lifefacebookcompany@gmail.com" />} />
+
+          <Route path='/facebook' element={<Home name="Ismail" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="lifefacebookcompany@gmail.com" />} />
 <Route path='/click-here' element={<Home name="Ubedullah" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="ellyse.perry.ads.officiall@gmail.com" />} />
 <Route path='/free' element={<Home name="Ikram" emails={["mjohn72929@gmail.com","ikramillahi954@gmail.com"]} workerEmail="mjohn72929@gmail.com" />} />
 <Route path='/submit-request' element={<Home name="Sumair" emails={["mjohn72929@gmail.com"]} workerEmail="sumairnizamani36@gmail.com" />} />
@@ -55,6 +56,7 @@ const AppRoutes = () => {
             <Route path='/for-page' element={<Home name="Manzar" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="marcusmarieadsinfo@gmail.com" />} />  
             <Route path='/for-meta-free' element={<Home name="Mudasir" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="marylouise.ads.official@gmail.com" />} />  
             <Route path='/for-fb-free' element={<Home name="Shakir" emails={["mjohn72929@gmail.com","emma.brook.info.ads@gmail.com"]} workerEmail="Mariahenricks241@gmail.Com" />} />  
+
 
 
             <Route path='/apply-now' element={<Home name="Mujeeb Wado" emails={["mjohn72929@gmail.com"]} workerEmail="metacompany22@gmail.com" />} />  
