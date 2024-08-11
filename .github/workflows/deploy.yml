@@ -40,5 +40,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "verified-badge"
-          entrypoint: "server.ts"
+          entrypoint: "../server.ts"
           root: "build"
